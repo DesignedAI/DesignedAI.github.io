@@ -6,6 +6,7 @@ import { Mobile, PC } from "../MediaQuery"
 import { Div } from "../styles/Div"
 import Img from "../styles/Img"
 import { P } from "../styles/P"
+import Button from "../styles/Button"
 
 const StyledHeader = styled(Div)`
     display: flex;
@@ -65,9 +66,15 @@ const ContactHeader = () => {
                         onClick={moveContact}
                     >
                         <Div>
-                            <P color="wh" fontSize="lg">
-                                Contact
-                            </P>
+                            <Button style={{
+                                backgroundColor: '#f4f4f4',
+                                padding: '3px 16px',
+                                borderRadius: '25px'
+                            }}>
+                                <P color="bk" fontSize="lg">
+                                    Contact
+                                </P>
+                            </Button>
                         </Div>
                     </Div>
                 </StyledHeader>
