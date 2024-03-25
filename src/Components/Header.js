@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom"
 import { Mobile, PC } from "../MediaQuery"
 import { Div } from "../styles/Div"
 import Img from "../styles/Img"
-import { P } from "../styles/P"
+import { P, FontP } from "../styles/P"
 import Button from "../styles/Button"
 
 const StyledHeader = styled(Div)`
@@ -52,30 +52,29 @@ const ContactHeader = () => {
                             <Img src="/images/logo.jpg" $objectFit="fill" />
                         </Div>
                         <Div $padding="0 0 0 30px ">
-                            <P color="wh" fontSize="lg" fontWeight="800">
+                            <FontP color="wh" fontSize="lg" fontWeight="800">
                                 DesignedAI
-                            </P>
+                            </FontP>
                         </Div>
                     </Div>
                     <Div
                         display="flex"
                         $pointer
                         $justifyContent="end"
-                        width="700px"
+                        width="200px"
                         $padding="0 30px 0 0"
                         onClick={moveContact}
                     >
-                        <Div>
-                            <Button style={{
-                                backgroundColor: '#f4f4f4',
-                                padding: '3px 16px',
-                                borderRadius: '25px'
-                            }}>
-                                <P color="bk" fontSize="lg">
-                                    Contact
-                                </P>
-                            </Button>
-                        </Div>
+                        <Button style={{
+                            backgroundColor: '#f4f4f4',
+                            color: 'bk',
+                            padding: '3px 16px',
+                            borderRadius: '25px'
+                        }}>
+                            <P color="black" fontSize="md" fontWeight="600">
+                                Contact
+                            </P>
+                        </Button>
                     </Div>
                 </StyledHeader>
             </PC>
@@ -86,17 +85,22 @@ const ContactHeader = () => {
                             <Img src="/images/logo.jpg" $objectFit="fill" />
                         </Div>
                         <Div $padding="0 0 0 30px ">
-                            <P color="wh" fontSize="xs" fontWeight="800">
+                            <FontP color="wh" fontSize="xs" fontWeight="800">
                                 DesignedAI
-                            </P>
+                            </FontP>
                         </Div>
                     </Div>
                     <Div display="flex" $pointer $justifyContent="end" $padding="0 30px 0 0" onClick={moveContact}>
-                        <Div>
-                            <P color="wh" fontSize="xs">
+                        <Button style={{
+                            backgroundColor: '#f4f4f4',
+                            color: 'bk',
+                            padding: '3px 16px',
+                            borderRadius: '25px'
+                        }}>
+                            <P color="bk" fontSize="xs" fontWeight="600">
                                 Contact
                             </P>
-                        </Div>
+                        </Button>
                     </Div>
                 </StyledHeaderMobile>
             </Mobile>

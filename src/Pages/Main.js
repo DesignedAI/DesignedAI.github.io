@@ -4,7 +4,7 @@ import { Mobile, PC } from "../MediaQuery";
 
 import { styled } from "styled-components";
 import { Div, MainSection } from "../styles/Div";
-import { P } from "../styles/P";
+import { P, FontP } from "../styles/P";
 
 const Video = styled.video`
     position: absolute;
@@ -31,59 +31,61 @@ const Main = () => {
                     </Video>
                     <MainDiv display="flex" $justifyContent="space-evenly" direction="column" $margin="30px 0">
                         <Div display="flex" $padding="20px 25px" $borderRadius="10px">
-                            <P fontSize="xxxl" color="wh" $center fontWeight="800">
-                                Artificial Intelligence designed by humans for humanity
+                            <P fontSize="xl" color="wh" $center fontWeight="500">
+                                Artificial Intelligence 
+                                <hr></hr>
+                                designed by humans for humanity
                             </P>
                         </Div>
 
                         <Div width="100%">
                             <Div display="flex" width="100%" $margin="0 0 20px 0">
-                                <P color="blue" fontSize="xxxxl" $center fontWeight="800">
+                                <FontP color="blue" fontSize="xxxl" $center fontWeight="800">
                                     DesignedAI
-                                </P>
+                                </FontP>
                             </Div>
                         </Div>
                         <Div width="100%">
-                            <Div display="flex" width="100%" $margin="0 0 50px 0 ">
-                                <P color="wh" fontSize="xxxl" $center fontWeight="400">
+                            <Div display="flex" width="100%" $margin="0 0 20px 0 ">
+                                <P color="wh" fontSize="xl" $center fontWeight="400">
                                     Fast and cost-efficient general AI framework
                                 </P>
                             </Div>
                             <Div display="flex" width="100%" $margin="0 0 20px 0">
                                 <Div $margin="0 10px 0 0 ">
-                                    <P color="wh" fontSize="xxxl" $center>
+                                    <FontP color="wh" fontSize="xl" $center>
                                         Metep
-                                    </P>
+                                    </FontP>
                                 </Div>
                                 <Div>
-                                    <P color="wh" fontSize="xxxl" $center fontWeight="800">
+                                    <FontP color="wh" fontSize="xl" $center fontWeight="600">
                                         (Me
-                                    </P>
+                                    </FontP>
                                 </Div>
                                 <Div>
-                                    <P color="wh" fontSize="xxxl" $center>
+                                    <FontP color="wh" fontSize="xl" $center>
                                         ta-
-                                    </P>
+                                    </FontP>
                                 </Div>
                                 <Div>
-                                    <P color="wh" fontSize="xxxl" $center fontWeight="800">
+                                    <FontP color="wh" fontSize="xl" $center fontWeight="600">
                                         Te
-                                    </P>
+                                    </FontP>
                                 </Div>
                                 <Div $margin="0 10px 0 0">
-                                    <P color="wh" fontSize="xxxl" $center>
+                                    <FontP color="wh" fontSize="xl" $center>
                                         nsor
-                                    </P>
+                                    </FontP>
                                 </Div>
                                 <Div>
-                                    <P color="wh" fontSize="xxxl" $center fontWeight="800">
+                                    <FontP color="wh" fontSize="xl" $center fontWeight="600">
                                         P
-                                    </P>
+                                    </FontP>
                                 </Div>
                                 <Div>
-                                    <P color="wh" fontSize="xxxl" $center>
+                                    <FontP color="wh" fontSize="xl" $center>
                                         ropagation)
-                                    </P>
+                                    </FontP>
                                 </Div>
                             </Div>
                         </Div>
@@ -97,15 +99,17 @@ const Main = () => {
                     </Video>
                     <MainDiv display="flex" $justifyContent="space-evenly" direction="column" $margin="30px 0">
                         <Div display="flex" $padding="20px 25px" $borderRadius="10px">
-                            <P fontSize="sm" color="wh" $center fontWeight="800">
-                                Artificial Intelligence designed by humans for humanity
+                            <P fontSize="sm" color="wh" $center fontWeight="500">
+                                Artificial Intelligence 
+                                <hr></hr>
+                                designed by humans for humanity
                             </P>
                         </Div>
                         <Div width="100%">
                             <Div display="flex" width="100%" $margin="0 0 20px 0">
-                                <P color="blue" fontSize="sm" $center fontWeight="800">
+                                <FontP color="blue" fontSize="sm" $center fontWeight="800">
                                     DesignedAI
-                                </P>
+                                </FontP>
                             </Div>
                         </Div>
                         <Div width="100%">
@@ -116,39 +120,39 @@ const Main = () => {
                             </Div>
                             <Div display="flex" width="100%" $margin="20px 0">
                                 <Div $margin="0 10px 0 0 ">
-                                    <P color="wh" fontSize="xs" $center>
+                                    <FontP color="wh" fontSize="xs" $center>
                                         Metep
-                                    </P>
+                                    </FontP>
                                 </Div>
                                 <Div>
-                                    <P color="wh" fontSize="xs" $center fontWeight="800">
+                                    <FontP color="wh" fontSize="xs" $center fontWeight="600">
                                         (Me
-                                    </P>
+                                    </FontP>
                                 </Div>
                                 <Div>
-                                    <P color="wh" fontSize="xs" $center>
+                                    <FontP color="wh" fontSize="xs" $center>
                                         ta-
-                                    </P>
+                                    </FontP>
                                 </Div>
                                 <Div>
-                                    <P color="wh" fontSize="xs" $center fontWeight="800">
+                                    <FontP color="wh" fontSize="xs" $center fontWeight="600">
                                         Te
-                                    </P>
+                                    </FontP>
                                 </Div>
                                 <Div $margin="0 5px 0 0 ">
-                                    <P color="wh" fontSize="xs" $center>
+                                    <FontP color="wh" fontSize="xs" $center>
                                         nsor
-                                    </P>
+                                    </FontP>
                                 </Div>
                                 <Div>
-                                    <P color="wh" fontSize="xs" $center fontWeight="800">
+                                    <FontP color="wh" fontSize="xs" $center fontWeight="600">
                                         P
-                                    </P>
+                                    </FontP>
                                 </Div>
                                 <Div>
-                                    <P color="wh" fontSize="xs" $center>
+                                    <FontP color="wh" fontSize="xs" $center>
                                         ropagation)
-                                    </P>
+                                    </FontP>
                                 </Div>
                             </Div>
                         </Div>

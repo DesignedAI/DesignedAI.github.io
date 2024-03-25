@@ -17,6 +17,10 @@ const P = styled.p`
     line-height: ${(props) => props.$lineHeight || "1.2"};
 `
 
+const FontP = styled(P)`
+    font-family: 'Krungthep';
+`
+
 const Pre = styled.pre`
     width: 100%;
     height: fit-content;
@@ -33,4 +37,4 @@ const Pre = styled.pre`
     ${(props) => props.underline && "text-decoration-line: underline"};
 `
 
-export { P, Pre }
+export { P, FontP, Pre }
