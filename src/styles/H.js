@@ -22,6 +22,7 @@ const H2 = styled.h2`
     color: ${(props) => props.theme.color[props.color] || props.theme.color.bk};
     ${(props) => props.$center && "text-align: center"};
     line-height: ${(props) => props.$lineHeight || "1.2"};
+    overflow: hidden;
 `
 
 export { H1, H2 }
