@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.03e66181.css",
-    "main.js": "/static/js/main.bfc91340.js",
+    "main.js": "/static/js/main.9487baab.js",
     "static/media/Krungthep.ttf": "/static/media/Krungthep.9545f0ceefb78a42f2a0.ttf",
     "index.html": "/index.html",
     "main.03e66181.css.map": "/static/css/main.03e66181.css.map",
-    "main.bfc91340.js.map": "/static/js/main.bfc91340.js.map"
+    "main.9487baab.js.map": "/static/js/main.9487baab.js.map"
   },
   "entrypoints": [
     "static/css/main.03e66181.css",
-    "static/js/main.bfc91340.js"
+    "static/js/main.9487baab.js"
   ]
 }
