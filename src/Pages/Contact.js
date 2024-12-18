@@ -76,7 +76,36 @@ const Contact = () => {
                 <ContactHeader />
                 <Div display="flex" width="100%" $margin="100px 0 ">
                     <Div width="700px" $padding="20px" $border={`1px solid ${theme.color.red2}`}>
-                        <form ref={form}>
+                        <Div $margin="7px 0">
+                            <H2 fontWeight="800">Contact Us</H2>
+                        </Div>
+                        <Div width="100%" $margin="20px 0">
+                            <P fontSize="sm">
+                                You can reach us via email at:
+                            </P>
+                            <Div $margin="10px 0">
+                                <a
+                                    href="mailto:&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#100;&#101;&#115;&#105;&#103;&#110;&#101;&#100;&#97;&#105;&#46;&#99;&#111;&#109;"
+                                    style={{
+                                        display: "flex",
+                                        alignItems: "center",
+                                        textDecoration: "none",
+                                        color: "red2",
+                                        fontSize: "lg",
+                                    }}
+                                >
+                                    <i
+                                        className="fas fa-envelope"
+                                        style={{ marginRight: "0.3rem" }}
+                                    ></i>
+                                    &#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#100;&#101;&#115;&#105;&#103;&#110;&#101;&#100;&#97;&#105;&#46;&#99;&#111;&#109;
+                                </a>
+                            </Div>
+                            <P fontSize="sm" color="grey2">
+                                We’ll get back to you as soon as possible!
+                            </P>
+                        </Div>
+                        {/* <form ref={form}>
                             <Div $margin="7px 0">
                                 <H2 fontWeight="800">Fill the form below</H2>
                             </Div>
@@ -256,7 +285,7 @@ const Contact = () => {
                             >
                                 <P>SEND</P>
                             </Div>
-                        </form>
+                        </form> */}
                     </Div>
                     <Div display="flex" width="550px" $margin="0 0 0 50px" $padding="30px" direction="column">
                         <Div display="flex">
@@ -272,9 +301,9 @@ const Contact = () => {
                         <Div display="flex" width="100%" $justifyContent="end" $padding="0 0 50px 0">
                             <Div>
                                 <P fontSize="sm" color="grey2">
-                                    604, 57 Dongtancheomdansaneop 1-ro,
+                                    410, 15 Heungdeok 2-ro, Giheung-gu,  
                                     <br />
-                                    Hwaseong-si, Gyeonggi-do, 18469,
+                                    Yongin-si, Gyeonggi-do, 16955
                                     <br />
                                     South Korea
                                 </P>
@@ -288,7 +317,36 @@ const Contact = () => {
             <Mobile>
                 <Div display="flex" width="100%">
                     <Div width="520px" $padding="20px" $margin="10px 0 " $border={`1px solid ${theme.color.red2}`}>
-                        <form ref={form}>
+                    <Div $margin="7px 0">
+                            <H2 fontWeight="800">Contact Us</H2>
+                        </Div>
+                        <Div width="100%" $margin="20px 0">
+                            <P fontSize="sm">
+                                You can reach us via email at:
+                            </P>
+                            <Div $margin="10px 0">
+                                <a
+                                    href="mailto:&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#100;&#101;&#115;&#105;&#103;&#110;&#101;&#100;&#97;&#105;&#46;&#99;&#111;&#109;"
+                                    style={{
+                                        display: "flex",
+                                        alignItems: "center",
+                                        textDecoration: "none",
+                                        color: "red2",
+                                        fontSize: "lg",
+                                    }}
+                                >
+                                    <i
+                                        className="fas fa-envelope"
+                                        style={{ marginRight: "0.3rem" }}
+                                    ></i>
+                                    &#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#100;&#101;&#115;&#105;&#103;&#110;&#101;&#100;&#97;&#105;&#46;&#99;&#111;&#109;
+                                </a>
+                            </Div>
+                            <P fontSize="sm" color="grey2">
+                                We’ll get back to you as soon as possible!
+                            </P>
+                        </Div>
+                        {/* <form ref={form}>
                             <Div $margin="7px 0">
                                 <H2 fontWeight="800" fontSize="sm">
                                     Fill the form below
@@ -470,7 +528,7 @@ const Contact = () => {
                             >
                                 <P fontSize="xs">SEND</P>
                             </Div>
-                        </form>
+                        </form> */}
                     </Div>
                     <Div display="flex" width="520px" $padding="20px" direction="column">
                         <Div display="flex">
@@ -486,9 +544,9 @@ const Contact = () => {
                         <Div display="flex" width="100%" $justifyContent="end" $padding="0 0 50px 0">
                             <Div>
                                 <P color="grey2" fontSize="xxs">
-                                    604, 57 Dongtancheomdansaneop 1-ro,
+                                410, 15 Heungdeok 2-ro, Giheung-gu,  
                                     <br />
-                                    Hwaseong-si, Gyeonggi-do, 18469,
+                                    Yongin-si, Gyeonggi-do, 16955
                                     <br />
                                     South Korea
                                 </P>
