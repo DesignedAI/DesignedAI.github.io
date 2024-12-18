@@ -97,7 +97,7 @@ const Contact = () => {
                                             $borderRadius="5px"
                                         />
                                     </Div>
-                                </Div>
+                                </Div> 
                                 <Div width="49%">
                                     <Div $margin="7px 0">
                                         <P fontSize="sm">Last Name *</P>
